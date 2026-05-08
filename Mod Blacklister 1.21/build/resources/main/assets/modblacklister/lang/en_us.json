@@ -1,0 +1,4 @@
+{
+  "modblacklister.disconnect.no_mod": "You must install Mod Blacklister to join this server.",
+  "modblacklister.disconnect.blacklisted_mod": "Blacklisted mod detected: %s"
+}

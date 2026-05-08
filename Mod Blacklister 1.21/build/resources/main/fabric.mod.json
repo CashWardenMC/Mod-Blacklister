@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "modblacklister",
+  "version": "2.0.0",
+  "name": "Mod Blacklister",
+  "description": "A mod that requires itself on clients and blacklists specified mods via config.json.",
+  "authors": [
+    "CashWarden"
+  ],
+  "contact": {
+    "sources": "https://example.com"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cashwarden.modblacklister.ModBlacklister"
+    ],
+    "client": [
+      "com.cashwarden.modblacklister.ClientModBlacklister"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  }
+}

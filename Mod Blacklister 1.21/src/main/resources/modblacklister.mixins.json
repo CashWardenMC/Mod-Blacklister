@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "cashwarden.modblacklister.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
